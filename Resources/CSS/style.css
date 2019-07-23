@@ -3,21 +3,33 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.4em;
+
+}
+
+p {
+  line-height:1.4em;
+  font-weight: 300;
 }
 
 html, body {
   height: 100%;
+
 }
 
-/*
+
 div, menu {
   outline: 1px solid black;
-} */
+}
 
 h1, h2, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
+}
+
+p
+strong {
+  font-weight: 600;
 }
 
 .button__1, .button__2 {
@@ -36,8 +48,11 @@ h1, h2, h3, h4, h5 {
   display: grid;
   grid-template-rows: repeat(10, 10%);
   grid-template-columns: repeat(10, 1fr)
+  grid-row-gap: 10px;
 
 }
+
+
 
 /*****************************
 Left Side
@@ -64,7 +79,7 @@ menu {
   grid-row-start: 5;
   grid-row-end: 7;
   grid-column-start: 2;
-  grid-column-end: 9;
+  grid-column-end: 10;
 }
 
 .button {
@@ -87,7 +102,10 @@ menu {
 
 .fab {
   color: black;
+  padding: 5px;
 }
+
+
 
 /****************************
 Right Side
@@ -116,7 +134,7 @@ Right Side
 
 .title {
 
-  grid-row-start: 5;
+  grid-row-start: 4;
   grid-row-end: 7;
   grid-column-start: 4;
   grid-column-end: 10;
@@ -193,7 +211,7 @@ Buttons
 	color:#ffffff;
 	font-size:1.15em;
 	font-weight:bold;
-	padding:15px 26px;
+	padding:15px 33px;
 	text-decoration:none;
 }
 .button__2:hover {
